@@ -23,7 +23,7 @@ require('sugar');
  * @classdesc
  */
 var TestResponseHandler = jsface.Class(AbstractResponseHandler, {
-    $singleton: true,
+    $singleton: false,
     throwErrorOnLog: false,
     main: function () {
         jsdom.env("<html><body></body></html>", function (err, window) {

@@ -17,7 +17,7 @@ var jsface = require("jsface"),
  * @namespace
  */
 var Newman = jsface.Class([Options, EventEmitter], {
-    $singleton: true,
+    $singleton: false,
 
     /**
      * Executes XHR Requests for the Postman request, and logs the responses

@@ -19,7 +19,7 @@ var jsface = require('jsface'),
  * @mixes EventEmitter , Queue
  */
 var RequestRunner = jsface.Class([Queue, EventEmitter], {
-    $singleton: true,
+    $singleton: false,
 
     delay: 0,
     strictSSL: true,

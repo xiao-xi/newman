@@ -8,7 +8,7 @@ var jsface = require('jsface'),
  * @classdesc
  */
 var ResponseHandlerFactory = jsface.Class({
-    $singleton: true,
+    $singleton: false,
 
     /**
      * @function
